@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel Populer Liputan6</title>
+</head>
+<body>
+    <h1>Artikel Populer Liputan6</h1>
+    <div>
+        {% for img_src in gambar %}
+            <img src="{{ img_src }}" alt="Gambar Artikel Populer">
+        {% endfor %}
+    </div>
+    <p><a href="/">Kembali ke Beranda</a></p>
+</body>
+</html>
